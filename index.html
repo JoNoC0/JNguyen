@@ -16,7 +16,7 @@
     </header>
 
     <!-- Navbar -->
-    <nav>
+    <nav id="navigation" class="navbar">
       <a href="#about-me">About Me</a>
       <a href="#applications">Applications</a>
       <a href="#contact-info">Contact Info</a>
@@ -25,17 +25,17 @@
     <!-- Body -->
     <main>
       <!-- Product Cards -->
-      <div class="products">
-        <section id="about-me" class="card">
-          <header>About Me</header>
+      <div id="assets" class="info">
+        <div id="about-me" class="card">
+          <div id="title" class="top-title">About Me</div>
           <img 
             src="./assets/images/selfie.jpg" 
             alt="John trying to be serious" 
           />
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum amet minus voluptatibus delectus ipsam autem voluptatem, ad, sapiente eveniet nihil reprehenderit ex magnam quasi porro, ducimus tenetur nemo enim dignissimos.</p>
-        </section>
-        <section id="applications" class="card">
-          <header>Applications</header>
+        </div>
+        <div id="applications" class="card">
+          <div id="title" class="top-title">Applications</div>
           <a href="https://skyrimpro1.github.io/MealTime/">
           <img
             src="./assets/images/groupProj1-Main.png"
@@ -43,20 +43,21 @@
           />
           </a>  
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos qui molestias quo quisquam perspiciatis esse minima quasi suscipit aliquid voluptatibus magni, nam explicabo tempora necessitatibus dolor consectetur doloremque dignissimos doloribus.</p>
-        </section>
-        <section id="contact-info" class="card">
-          <header>Contact Information</header>
+        </div>
+        <div id="contact-info" class="card">
+          <div id="title" class="top-title">Contact Information</div>
 
-          <address>
+          <address id="address-info" class="card">
             55 Main Street <br/>
             Some Town, MS <br/>
             12345 <br/>
             P: 555.555.5555 <br/>
-            E: <a href="/">info@message.com</a>
+            <li><a href="mailto:jnguyeningco@gmail.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/john-nguyen-49158621a">LinkedIn</a></li>
           </address>
 
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate, quis rerum asperiores molestias eaque saepe laborum pariatur cum, beatae quo! Ut nostrum, rerum commodi fugit eaque vel laudantium quaerat.</p>
-        </section>
+        </div>
       </div>
     </main>
 
